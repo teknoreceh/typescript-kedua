@@ -1,0 +1,2 @@
+# typescript-kedua
+ngapalin aja
