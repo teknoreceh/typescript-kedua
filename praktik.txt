@@ -1,0 +1,22 @@
+#ikuti langkah berikut:
+#install NPM dan NodeJs
+sudo apt-get install nodejs npm -y
+#suruh NPM nginstall Ts
+npm install -g typescript
+#kalau ada masalah permission pake sudo
+sudo npm install -g typescript
+#cek versi
+tsc -v
+#buat file pake vim/nano
+vim halo.ts
+/* tulis ini
+let message: string = 'Halo, TypeScript, bagaimana kabarnya?';
+console.log(message);
+*/
+#compile dengan perintah
+tsc halo.ts
+#lihat dengan ls dan pastikan ada file halo.js
+ls
+#jalanin dengan node file js tsb
+node halo.js
+#Selamat eaaa hiya hiya.. 
